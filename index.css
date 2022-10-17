@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url('bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.headtext{
+    font-family: text;
+    font-size: 7vw;
+    color: blue;
+    animation-name:rgb ;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rgb{
+    25%{color: red;}
+    50%{color: green;}
+    75%{color: yellow;}
+    
+    
+}
+img{
+    width: 70%;
+    height: auto;
+}
+.player1{
+    font-family: text;
+    font-size: 3vw;
+    margin-top: 5vw;
+    margin-left: 42vw;
+    color: rgb(255, 187, 0)
+    
+    
+}
+.yimjai:hover{
+    transition-duration: 0.7s;
+    color: rgb(255, 211, 66)
+}
+.yimjai{
+    font-family: text;
+    font-size: 3vw;
+    margin-top: 5vw;
+    margin-left: 42vw;
+    color: rgb(163,123,2);
+    cursor: pointer;
+}
+@font-face {
+    font-family: text;
+    src: url('04B_30__.TTF');
+}
